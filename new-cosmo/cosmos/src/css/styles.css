@@ -1507,16 +1507,23 @@ section {
 
 .third__link {
     position: absolute;
-    content: url('../img/Component\ 2.svg');
     top: 37%;
     left: 23%;
 }
 
+.third__link:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
+}
+
 .third__link-1 {
     position: absolute;
-    content: url('../img/даты.svg');
     bottom: 31%;
     left: 23%;
+}
+.third__link-1:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
 }
 .list__menu .list__link:hover {
     color: #7ED1FB;
@@ -1524,37 +1531,62 @@ section {
 
 .third__link-2 {
     position: absolute;
-    content: url('../img/даты\ \(1\).svg');
     top: 27%;
     left: 58%;
 }
 
+.third__link-2:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
+}
+
 .third__link-3 {
     position: absolute;
-    content: url('../img/даты\ \(2\).svg');
+  
     top: 38%;
     left: 89%;
 }
 
+.third__link-3:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
+}
+
 .third__link-4 {
     position: absolute;
-    content: url('../img/даты\ \(3\).svg');
+ 
     bottom: 18%;
     left: 41%;
 }
 
+.third__link-4:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
+}
+
+
 .third__link-5 {
     position: absolute;
-    content: url('../img/даты\ \(4\).svg');
+  
     bottom: 31%;
     left: 61%;
 }
 
+.third__link-5:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
+}
+
 .third__link-6 {
     position: absolute;
-    content: url('../img/даты-1.svg');
+    
     bottom: 31%;
     left: -4%;
+}
+
+.third__link-6:hover path {
+    transition: all 0.3s;
+    fill: #BBAC85 ;
 }
 
 .tab__third {
