@@ -944,7 +944,7 @@ section {
 }
 
 .kosm_korables_10 #second_korabl_full_cosm {
-    cursor: pointer;
+    cursor: auto;
 }
 
 
@@ -3216,4 +3216,8 @@ section {
 .for_mail:hover{
     color: #7ED1FB;
 
+}
+
+#for_disable{
+    cursor: default  !important;
 }
