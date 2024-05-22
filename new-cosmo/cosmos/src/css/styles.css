@@ -3144,14 +3144,22 @@ section {
 
 .main_section_korabl_end {
     height: 100%;
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     gap: 100px;
     background-image: url(../img/phon_kosm_kor.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    flex-direction: column;
+    cursor: auto;
+}
+.for_frames{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-top: 3%;
 }
 
 .for_text_end {
