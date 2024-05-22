@@ -3160,6 +3160,7 @@ section {
     align-content: center;
     justify-content: center;
     padding-top: 3%;
+    gap: 10px;
 }
 
 .for_text_end {
