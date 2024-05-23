@@ -3784,3 +3784,13 @@ section {
   }
 
   
+
+.for_mail{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.for_mail:hover{
+    color: #7ED1FB;
+
+}
