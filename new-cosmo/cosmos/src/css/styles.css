@@ -2533,12 +2533,13 @@ section {
 .third-SPA-notebook-box,
 .fouth-SPA-notebook-box,
 .fiveth-SPA-notebook-box {
-    width: 100%;
+    width: 80%;
     height: 100%;
     display: none;
     align-items: center;
     justify-content: center;
     z-index: 9 !important;
+    cursor: pointer;
 
 }
 
@@ -2576,7 +2577,7 @@ section {
     align-items: start;
     justify-content: space-between;
     gap: 50px;
-    width: 80%;
+    width: 70%;
     height: 90%;
     background-color: #C6C6C6;
     position: relative;
@@ -6254,7 +6255,7 @@ section {
     align-items: start;
     justify-content: space-between;
     gap: 50px;
-    width: 80%;
+    width: 70%;
     height: 90%;
     background-color: #C6C6C6;
     position: relative;
@@ -7465,3 +7466,11 @@ section {
   }
 
   
+
+  .first-liv,
+  .second-liv,
+  .third-liv,
+  .four-liv,
+  .fifth-liv {
+      transition: .7s ease;
+  }
