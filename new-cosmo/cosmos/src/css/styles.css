@@ -262,7 +262,7 @@ section {
 .right_img_korabl_1 {
     background-color: #D9D9D9;
     padding-left: 69px;
-    height: 837px;
+    height: 897px;
     margin-top: 34px;
 }
 
@@ -459,8 +459,8 @@ section {
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 66px;
-    height: 771px;
-    width: 1154px;
+    height: auto;
+    width: 800px;
     position: relative;
 }
 
@@ -967,6 +967,8 @@ section {
     background-repeat: no-repeat;
     width: 808px;
     height: 1080px;
+        background-size: cover;
+    width: 100%;
 }
 
 .for_images_srection_korables_10_content_2 {
@@ -1223,15 +1225,6 @@ section {
     display: flex;
     flex-direction: column;
     align-items: end;
-}
-
-.image-astronaut {
-    position: absolute;
-    bottom: 429px;
-    height: 450px;
-    z-index: 1;
-    width: 450px;
-    
 }
 
 .image-line {
@@ -2104,11 +2097,11 @@ section {
     z-index: 3;
     cursor: pointer;
     right: 219px;
-    bottom: 251px;
+    top: 468px;
     gap: 33px;
     font-family: "Montserrat", sans-serif;
     line-height: 60px;
-    width: 1324px;
+    width: 1429px;
 }
 
 .flighti__title::before {
@@ -3315,7 +3308,7 @@ section {
     }
     .right_img_korabl_for_text {
         height: auto;
-        width: 600px;
+        width: 800px;
     }
     .right_img_korabl_1 {
         height: 979px;
@@ -4132,8 +4125,8 @@ section {
     padding-left: 64px;
     padding-right: 64px;
     padding-top: 66px;
-    height: 771px;
-    width: 1154px;
+    height: auto;
+    width: 800px;
     position: relative;
 }
 
@@ -4265,6 +4258,14 @@ section {
     background-repeat: no-repeat;
     top: 361px;
     left: 437px;
+}
+
+.image-land-bottom {
+    position: absolute;
+    top: 0;
+    left: 96px;
+    max-width: 1281px; 
+    width: 100%;
 }
 
 .img_kvadr_kor_2_2 {
@@ -4638,7 +4639,7 @@ section {
 .for_images_srection_korables_10_content_1 {
     background-image: url(../img/for_images_srection_korables_10_content_1.png);
     background-repeat: no-repeat;
-    width: 808px;
+    width: 100%;
     height: 1080px;
 }
 
@@ -4898,14 +4899,6 @@ section {
     align-items: end;
 }
 
-.image-astronaut {
-    position: absolute;
-    bottom: 429px;
-    height: 450px;
-    z-index: 1;
-    width: 450px;
-    
-}
 
 .image-line {
     height: 579px;
@@ -5159,11 +5152,6 @@ section {
 
 @media screen and (max-width: 1035px) {
     
-    .image-astronaut {
-        max-width: 450px;
-        width: 100%;
-        height: auto;
-    }
 
     .astronaut__title {
         font-size: 40px;
@@ -5639,6 +5627,7 @@ section {
     position: absolute;
     z-index: 3;
     display: flex;
+    margin-top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
     gap: 51px;
@@ -5781,7 +5770,7 @@ section {
     gap: 33px;
     font-family: "Montserrat", sans-serif;
     line-height: 60px;
-    width: 1324px;
+    width: 1429px;
 }
 
 .flighti__title::before {
@@ -5791,7 +5780,8 @@ section {
 .image-land {
     position: absolute;
     z-index: 1;
-    max-width: 1920px;
+    max-width: 1281px;
+    left: 96px;
     width: 100%;
     bottom: 0;
 
@@ -6179,6 +6169,7 @@ section {
     align-items: center;
     justify-content: center;
     position: relative;
+    cursor: pointer;
 }
 
 .first-top-list-boxes {
@@ -6962,23 +6953,7 @@ section {
     }
 
 
-    .for_images_srection_korables_10 {
-        flex-direction: column;
-        padding-left: 150px;
-        padding-right: 50px;
-    }
-    .for_images_srection_korables_10_content_1 {
-        max-width: 808px;
-        width: 100%;
-    }
-    .for_images_srection_korables_10_content_2 {
-        max-width: 1111px;
-        width: 100%;
-    }
-    .for_images_srection_korables_10_content_3 {
-        max-width: 1110px;
-        width: 100%;
-    }
+    
     .right_img_korabl {
         margin-right: 20px;
     }
@@ -7005,7 +6980,8 @@ section {
     .right_img_korabl_for_text {
         height: auto;
         margin-left: 100px;
-        width: 600px;
+        width: 870px;
+        padding-bottom: 30px;
     }
     .images_for_korabl_vostok {
 
@@ -7025,7 +7001,7 @@ section {
 
     }
     .right_img_korabl_1 {
-        height: 1179px;
+        height: 900px;
         margin-right: 20px;
     }
     .img_korabl_3 {
@@ -7034,7 +7010,7 @@ section {
     }
     .right_img_korabl_for_text_1 {
         height: auto;
-        width: 576px;
+        width: 800px;
     }
     .img_korabl_vostok {
         max-width: 1138px;
@@ -7068,7 +7044,7 @@ section {
         height: auto;
     }
     .right_img_korabl_for_text_buran {
-        width: 590px;
+        width: 870px;
         height: auto;
     }
     .image-vostok {
@@ -7553,4 +7529,9 @@ section {
   .four-liv,
   .fifth-liv {
       transition: .7s ease;
+  }
+
+
+  .for_images_srection_korables_10_content_images_main{
+    width: 52%;
   }
