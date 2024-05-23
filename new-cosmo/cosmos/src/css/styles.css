@@ -3304,9 +3304,7 @@ section {
         max-width: 1159px;
         width: 100%;
     }
-     .section_korabl_world {
-        display: none;
-    }
+
     .line_comsos {
         margin-top: 50px;
     }
@@ -3496,9 +3494,7 @@ section {
         max-width: 1920px;
     width: 100%;
     }
-    .flighti__desc {
-        left: 804px;
-    }
+
     .main_section_korabl {
     }
     .flighti-image-2 {
@@ -3522,9 +3518,7 @@ section {
     .line_comsos_block {
         width: 100%;
     }
-    .section_korabl_world {
-        display: none;
-    }
+
     .line_comsos_block {
         margin-left: 87px;
     }
@@ -6897,9 +6891,93 @@ section {
     text-align: center;
 }
 
+@media (max-width: 1750px) {
+    .image-flight_ellipse {
+        max-width: 1920px;
+    width: 100%;
+    }
+    .flighti__desc {
+        left: 93px;
+    }
+    .main_section_korabl {
+    }
+    .flighti-image-2 {
+        left: 10%;
+        max-width: 1405px;
+    width: 100%;
+    }
+}
+
+@media (max-width: 1650px) {
+    .right_img_korabl_images_content_vostok_1_1 {
+        background-color: transparent;
+        margin-left: 240px;
+    }
+    .images_for_korabl_vostok {
+        flex-direction: column;
+        align-items: center;
+    }
+    .images_for_korabl_vostok_content_1_2 {
+        max-width: 837px;
+        width: 100%;
+    }
+    .box_img__korabl_vostok {
+        max-width: 837px;
+        width: 100%;
+    }
+    .images_for_korabl_vostok_content_2_2 {
+        max-width: 837px;
+        width: 100%;
+    }
+    .main_for_vostok_1_2 {
+        flex-direction: column;
+    }
+    .main_section_korabl {
+        gap: 10px;
+    }
+    
+    .section_korabl_world {
+        margin-top: 237px;
+    }
+    .gagarin-descr_slide  {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .section-gagarin {
+        height: 1180px
+    }
+    .line_comsos_block {
+        margin-top: 30px;
+    }
+    .absolute_for_images_srection_korables {
+        font-size: 35px;
+    }
+    
+    .third__box {
+        left: 30px;
+    }
+    .kosm_korables_10 #second_korabl_full_cosm {
+        height: auto;
+    }
 
 
-@media (max-width: 1480px) {
+    .for_images_srection_korables_10 {
+        flex-direction: column;
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+    .for_images_srection_korables_10_content_1 {
+        max-width: 808px;
+        width: 100%;
+    }
+    .for_images_srection_korables_10_content_2 {
+        max-width: 1111px;
+        width: 100%;
+    }
+    .for_images_srection_korables_10_content_3 {
+        max-width: 1110px;
+        width: 100%;
+    }
     .right_img_korabl {
         margin-right: 20px;
     }
@@ -6918,9 +6996,7 @@ section {
         max-width: 1154px;
         width: 100%;
     }
-    .section_korabl_world {
-        display: none;
-    }
+
     .img_korabl {
         max-width: 1159px;
         width: 100%;
@@ -6940,13 +7016,6 @@ section {
     }
     .flighti__desc {
         left: 93px;
-    }
-    .main_section_korabl {
-    }
-    .flighti-image-2 {
-        left: 5%;
-        max-width: 1005px;
-    width: 100%;
     }
     .right_img_korabl_images_content_vostok {
         margin-left: 150px;
@@ -6984,14 +7053,15 @@ section {
     .right_img_korabl_vostok_content_1_2 {
         margin-right: 20px;
     }
-    .images_for_korabl_vostok_content_1_1 {
-        flex-direction: column;
-    }
+
     .right_img_korabl_images_content_vostok_1 {
         height: auto;
     }
     .images_for_korabl_vostok {
-        flex-direction: column;
+        
+    }
+    .main_for_vostok_1_1 {
+        margin-left: 200px;
     }
     .right_img_korabl_images_content_vostok_1_1 {
         height: auto;
@@ -7009,10 +7079,21 @@ section {
     }
 
 }
+
+@media (max-width: 1440px) {
+
+    .right_img_korabl_images_content_vostok_1_1 {
+        margin-left: 344px;
+    }
+    .section_korabl_world {
+        display: none;
+    }
+}
+
 @media (max-width: 1380px) {
     .flighti-image-2 {
         left: 50%;
-        max-width: 1005px;
+        max-width: 1185px;
     width: 100%;
     }
 }
@@ -7022,6 +7103,8 @@ section {
 
 
 @media (max-width: 1300px) {
+
+
     .image-vostok {
         max-width: 965px;
         width: 100%;
@@ -7096,30 +7179,6 @@ section {
         max-width: 1159px;
         width: 100%;
 
-    }
-    .kosm_korables_10 #second_korabl_full_cosm {
-        height: auto;
-    }
-    .main_section_korabl {
-        flex-direction: column;
-    }
-
-    .for_images_srection_korables_10 {
-        flex-direction: column;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    .for_images_srection_korables_10_content_1 {
-        max-width: 808px;
-        width: 100%;
-    }
-    .for_images_srection_korables_10_content_2 {
-        max-width: 1111px;
-        width: 100%;
-    }
-    .for_images_srection_korables_10_content_3 {
-        max-width: 1110px;
-        width: 100%;
     }
     .third__box {
         max-width: 1253px;
@@ -7261,20 +7320,25 @@ section {
         max-width: 1920px;
     width: 100%;
     }
-    .flighti__desc {
-        left: 804px;
-    }
     .main_section_korabl {
-    }
-    .flighti-image-2 {
-        max-width: 1005px;
-    width: 100%;
     }
 }
 
+@media (max-width: 1480px) {
+    .flighti-image-2 {
+        left: 119px;
+    }
+    .flighti__desc {
+        font-size: 45px;
+        left: 92px;
+    }
+    
+}
+
+
 @media (max-width: 1380px) {
     .flighti-image-2 {
-        left: 10%;
+        left: 89px;
     }
     .flighti__desc {
         font-size: 45px;
@@ -7283,31 +7347,43 @@ section {
 
 @media (max-width: 1280px) {
     .flighti-image-2 {
-        left: 50%;
+        left: 690px;
     }
     .flighti__desc {
         font-size: 45px;
+        left: 729px;
     }
 }
 
 @media (max-width: 1180px) {
     .flighti-image-2 {
-        left: 50%;
+        left: 43%;
     }
     .flighti__desc {
         font-size: 45px;
-        left: 894px 
+        left: 833px 
     }
 }
 
 @media (max-width: 1100px) {
     .flighti-image-2 {
-        max-width: 905px;
-        left: 56%;
+        max-width: 1005px;
+        left: 994px;
     }
     .flighti__desc {
         font-size: 45px;
-        left: 1094px 
+        left: 994px 
+    }
+}
+
+@media (max-width: 1100px) {
+    .flighti-image-2 {
+        max-width: 952px;
+        left: 1037px;
+    }
+    .flighti__desc {
+        font-size: 45px;
+        left: 994px 
     }
 }
 
@@ -7457,10 +7533,14 @@ section {
     }
   }
 
-  @media (max-width: 860px) {
+  @media (max-width: 880px) {
     .third__link-3 {
         top: 40%;
         left: 85%;
+    }
+    .gagarin-descr_slide  {
+        font-size: 15px;
+        line-height: 20px;
     }
   }
 
