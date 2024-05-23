@@ -3432,6 +3432,25 @@ section {
         max-width: 928px;
         width: 100%;
     }
+    .images-astronaut {
+        max-width: 478px;
+        width: 100%;
+    }
+    .gagarin-descr_slide {
+        max-width: 626px;
+        width: 100%;
+    }
+    .image-flight_ellipse {
+        max-width: 1920px;
+    width: 100%;
+    }
+    .flighti__desc {
+        left: 804px;
+    }
+    .flighti-image-2 {
+        max-width: 1005px;
+    width: 100%;
+    }
 }
 
 
