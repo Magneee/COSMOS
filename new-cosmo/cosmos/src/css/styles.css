@@ -7535,3 +7535,19 @@ section {
   .for_images_srection_korables_10_content_images_main{
     width: 52%;
   }
+
+.position_moree{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.position_moree p{
+    font-size: 14px;
+    z-index: 9999;
+    color: #000000;
+    position: absolute;
+    bottom: 20%;
+    right: 20% !important;
+
+}
