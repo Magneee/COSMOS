@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function showContent(index) {
       if (cardsContainer[index].classList.contains("hide")) {
         cardsContainer[index].classList.remove("hide");
-        cardsContainer[index].classList.add("show", "fade");
+        cardsContainer[index].classList.add("show");
       }
     }
 
