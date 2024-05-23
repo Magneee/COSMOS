@@ -7543,13 +7543,12 @@ section {
 }
 
 .position_moree p{
-    font-size: 14px;
+    font-size: 11px;
     z-index: 9999;
-    color: #000000;
+    color: #4a4545;
     position: absolute;
     bottom: 20%;
     right: 20% !important;
-
 }
 
 
