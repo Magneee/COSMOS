@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const descrStartSection = document.querySelector('.section-descr_start');
     const containerSlider = document.querySelector('.container-slider');
     const imageLine = document.querySelector('.image-line');
-    const imageAstronaut = document.querySelector('.image-astronaut');
+    const imageAstronaut = document.querySelector('.images-astronaut');
     const astronautDesc = document.querySelector('.astronaut__desc');
 
 
@@ -385,81 +385,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-// document.querySelectorAll('.list__link').forEach(link => {
-//     link.addEventListener('click', function(event) {
-//         event.preventDefault();
-//         const sections = document.querySelectorAll('.section');
-
-//         const targetId = this.getAttribute('href').substring(1);
-//         const targetElement = document.getElementById(targetId);
-//         const offsetTop = targetElement.offsetTop;
-//         sections[currentIndex].style.opacity = '1';
-
-//         window.scrollTo({
-//             top: offsetTop,
-//             behavior: 'smooth'
-//         });
-
-//         // Add delay between clicks
-//         document.querySelectorAll('.list__link').forEach(link => {
-//             link.style.pointerEvents = 'none'; // Disable clicks
-//         });
-
-//         setTimeout(() => {
-//             document.querySelectorAll('.list__link').forEach(link => {
-//                 link.style.pointerEvents = 'auto'; // Enable clicks after delay
-//             });
-//         }, 1000); // 1000 milliseconds delay
-//     });
-// });
-
-
-// const sections = document.querySelectorAll('.section');
-// let currentIndex = 0;
-
-// // Показываем первую секцию сразу
-// sections[0].style.opacity = '1';
-
-// // Функция для обработки скролла
-// function handleScroll(event) {
-//   const delta = Math.sign(event.deltaY);
-//   if (delta > 0 && currentIndex < sections.length - 1) {
-//     currentIndex++;
-//     sections[currentIndex].style.opacity = '1';
-//     sections[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
-//   } else if (delta < 0 && currentIndex > 0) {
-//     currentIndex--;
-//     sections[currentIndex].scrollIntoView({ behavior: 'smooth', block: 'start' });
-//   }
-// }
-
-// // Добавляем обработчик события скролла
-// window.addEventListener('wheel', handleScroll);
-
-
-
-
-
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     const menuIcon = document.querySelector('.icons-space_1');
-//     const closeIcon = document.querySelector('.sectiom-menu .icons-space');
-//     const menu = document.getElementById('menu');
-
-//     menuIcon.addEventListener('click', function () {
-//         menu.style.display = 'flex';
-//         document.body.style.overflow = 'hidden'; // Disable scroll on the body
-//         menuIcon.style.display = 'none';
-
-//     });
-
-//     closeIcon.addEventListener('click', function () {
-//         menu.style.display = 'none';
-//         document.body.style.overflow = 'auto'; // Enable scroll on the body
-//         menuIcon.style.display = 'block';
-
-//     });
-// });
 
 
 document.addEventListener('DOMContentLoaded', function () {
