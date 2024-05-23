@@ -83,7 +83,6 @@ baskBtn.forEach(btn => {
     }
 });
 
-console.log(baskBtn);
 
 
 

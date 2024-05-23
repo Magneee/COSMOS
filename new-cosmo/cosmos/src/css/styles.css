@@ -16,7 +16,6 @@ main {
 section {
     width: 100%;
     transition: opacity 1s ease-in-out;
-    opacity: 0;
     /* Начальное состояние - скрытые */
 
 }
@@ -1074,16 +1073,39 @@ section {
 .sectiom-menu {
     background: url('../img/background-1.png') no-repeat;
     background-size: cover;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+    height: 1080px;
+    display: none;
+    z-index: 1000;
+    color: white;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
 
+}
 .icons-space {
     margin-top: 83px;
     margin-bottom: 39px;
 }
+
+.icons-space_1 {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    z-index: 9999;
+    left: 8%;
+    top: 9%;
+    cursor: pointer;
+}
+
 
 .list__menu {
     padding: 0;
@@ -2186,6 +2208,7 @@ section {
     align-items: center;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .image-wrapper {
@@ -3132,14 +3155,23 @@ section {
 
 .main_section_korabl_end {
     height: 100%;
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     gap: 100px;
     background-image: url(../img/phon_kosm_kor.png);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+    flex-direction: column;
+    cursor: auto;
+}
+.for_frames{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-top: 3%;
+    gap: 10px;
 }
 
 .for_text_end {
@@ -3188,17 +3220,39 @@ section {
 }
 
 
-@media (max-width: 1360px) {
+
+@media (max-width: 1480px) {
     .scientists_block {
         height: 100%;
     }
-}
-
-@media (max-width: 1480px) {
     .flighti__title {
+        font-size: 25px;
         width: 60%;
-        left: 0;
+        left: 5%;
     }
+    .left_navigation_korabl_1 {
+        padding-right: 21px;
+    }
+    .img_korabl_1 {
+        max-width: 1154px;
+        width: 100%;
+    }
+    .section_korabl_world {
+        display: none;
+    }
+    .img_korabl {
+        max-width: 1159px;
+        width: 100%;
+    }
+    .right_img_korabl_for_text {
+        height: auto;
+        margin-left: 100px;
+        width: 600px;
+    }
+    .images_for_korabl_vostok {
+
+    }
+
     .image-flight_ellipse {
         max-width: 1920px;
     width: 100%;
@@ -3213,7 +3267,76 @@ section {
         max-width: 1005px;
     width: 100%;
     }
+    .right_img_korabl_images_content_vostok {
+        margin-left: 150px;
+    }
+    .right_img_korabl_3 {
+
+    }
+    .right_img_korabl_1 {
+        height: 1179px;
+        margin-right: 20px;
+    }
+    .img_korabl_3 {
+        max-width: 1138px;
+        width: 100%;
+    }
+    .right_img_korabl_for_text_1 {
+        height: auto;
+        width: 576px;
+    }
+    .img_korabl_vostok {
+        max-width: 1138px;
+        width: 100%;
+    }
+    .left_navigation_korabl {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+    .right_img_korabl_vostok_content_1_1 {
+        margin-right: 20px;
+    }
+    .images_for_korabl_vostok {
+        max-width: 1154px;
+        width: 100%;
+    }
+    .right_img_korabl_vostok_content_1_2 {
+        margin-right: 20px;
+    }
+    .images_for_korabl_vostok_content_1_1 {
+        flex-direction: column;
+    }
+    .right_img_korabl_images_content_vostok_1 {
+        height: auto;
+    }
+    .images_for_korabl_vostok {
+        flex-direction: column;
+    }
+    .right_img_korabl_images_content_vostok_1_1 {
+        height: auto;
+    }
+    .right_img_korabl_for_text_buran {
+        width: 590px;
+        height: auto;
+    }
+    .image-vostok {
+        max-width: 1154px;
+        width: 100%;
+    }
+    .head_for_korabl_1 {
+        font-size: 35px;
+    }
+
 }
+@media (max-width: 1380px) {
+    .flighti-image-2 {
+        left: 50%;
+        max-width: 1005px;
+    width: 100%;
+    }
+}
+
+
 
 
 
@@ -3272,9 +3395,7 @@ section {
         max-width: 1159px;
         width: 100%;
     }
-     .section_korabl_world {
-        display: none;
-    }
+
     .line_comsos {
         margin-top: 50px;
     }
@@ -3286,9 +3407,7 @@ section {
         height: auto;
         width: 600px;
     }
-    .right_img_korabl_1 {
-        height: 979px;
-    }
+
     .for_padding_korabl {
         font-size: 25px;
     }
@@ -3389,10 +3508,7 @@ section {
         overflow: hidden;
         height: 1000px;
     }
-    .flighti__title {
-        font-size: 25px;
 
-    }
     .bagroung-color {
         max-width: 852px;
         width: 100%;
@@ -3475,6 +3591,45 @@ section {
     }
 }
 
+@media (max-width: 1380px) {
+    .flighti-image-2 {
+        left: 10%;
+    }
+    .flighti__desc {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .flighti-image-2 {
+        left: 50%;
+    }
+    .flighti__desc {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .flighti-image-2 {
+        left: 50%;
+    }
+    .flighti__desc {
+        font-size: 45px;
+        left: 894px 
+    }
+}
+
+@media (max-width: 1100px) {
+    .flighti-image-2 {
+        max-width: 905px;
+        left: 56%;
+    }
+    .flighti__desc {
+        font-size: 45px;
+        left: 1094px 
+    }
+}
+
 
 @media (max-width: 1260px) {
     
@@ -3490,9 +3645,7 @@ section {
     .line_comsos_block {
         width: 100%;
     }
-    .section_korabl_world {
-        display: none;
-    }
+
     .line_comsos_block {
         margin-left: 87px;
     }
@@ -3574,10 +3727,7 @@ section {
         bottom: 0;
         left: 20%;
     }
-    .flighti__title {
-        width: 60%;
-        left: 0;
-    }
+
     .bg-flight-one {
         min-width: 100%;
     }
@@ -3634,4 +3784,3 @@ section {
   }
 
   
-
