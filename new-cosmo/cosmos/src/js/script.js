@@ -289,7 +289,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const descrStartSection = document.querySelector('.section-descr_start');
     const containerSlider = document.querySelector('.container-slider');
     const imageLine = document.querySelector('.image-line');
-    const imageAstronaut = document.querySelector('.image-astronaut');
+    const imageAstronaut = document.querySelector('.images-astronaut');
     const astronautDesc = document.querySelector('.astronaut__desc');
 
 
