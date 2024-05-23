@@ -3195,9 +3195,30 @@ section {
     }
 }
 
+@media (max-width: 1480px) {
+    .flighti__title {
+        width: 60%;
+        left: 0;
+    }
+    .image-flight_ellipse {
+        max-width: 1920px;
+    width: 100%;
+    }
+    .flighti__desc {
+        left: 93px;
+    }
+    .main_section_korabl {
+    }
+    .flighti-image-2 {
+        left: 5%;
+        max-width: 1005px;
+    width: 100%;
+    }
+}
 
 
-@media (max-width: 1360px) {
+
+@media (max-width: 1300px) {
     .image-vostok {
         max-width: 965px;
         width: 100%;
@@ -3381,7 +3402,7 @@ section {
         width: 50%;
     }
     .boycanour {
-        height: auto;
+        height: 1080px;
     }
     .img-fiveth-flex-block {
         width: 50%;
@@ -3446,6 +3467,8 @@ section {
     }
     .flighti__desc {
         left: 804px;
+    }
+    .main_section_korabl {
     }
     .flighti-image-2 {
         max-width: 1005px;
