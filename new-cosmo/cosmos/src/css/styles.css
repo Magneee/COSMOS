@@ -1225,15 +1225,6 @@ section {
     align-items: end;
 }
 
-.image-astronaut {
-    position: absolute;
-    bottom: 429px;
-    height: 450px;
-    z-index: 1;
-    width: 450px;
-    
-}
-
 .image-line {
     height: 579px;
     z-index: 3;
@@ -2104,11 +2095,11 @@ section {
     z-index: 3;
     cursor: pointer;
     right: 219px;
-    bottom: 251px;
+    top: 468px;
     gap: 33px;
     font-family: "Montserrat", sans-serif;
     line-height: 60px;
-    width: 1324px;
+    width: 1429px;
 }
 
 .flighti__title::before {
@@ -4267,6 +4258,14 @@ section {
     left: 437px;
 }
 
+.image-land-bottom {
+    position: absolute;
+    top: 0;
+    left: 96px;
+    max-width: 1279px; 
+    width: 100%;
+}
+
 .img_kvadr_kor_2_2 {
     background: url(../img/kvadr_kor.png);
     position: absolute;
@@ -4898,14 +4897,6 @@ section {
     align-items: end;
 }
 
-.image-astronaut {
-    position: absolute;
-    bottom: 429px;
-    height: 450px;
-    z-index: 1;
-    width: 450px;
-    
-}
 
 .image-line {
     height: 579px;
@@ -5159,11 +5150,6 @@ section {
 
 @media screen and (max-width: 1035px) {
     
-    .image-astronaut {
-        max-width: 450px;
-        width: 100%;
-        height: auto;
-    }
 
     .astronaut__title {
         font-size: 40px;
@@ -5781,7 +5767,7 @@ section {
     gap: 33px;
     font-family: "Montserrat", sans-serif;
     line-height: 60px;
-    width: 1324px;
+    width: 1429px;
 }
 
 .flighti__title::before {
@@ -5791,7 +5777,8 @@ section {
 .image-land {
     position: absolute;
     z-index: 1;
-    max-width: 1920px;
+    max-width: 1281px;
+    left: 96px;
     width: 100%;
     bottom: 0;
 
