@@ -83,7 +83,6 @@ baskBtn.forEach(btn => {
     }
 });
 
-console.log(baskBtn);
 
 
 
@@ -169,4 +168,50 @@ lists.forEach(list => {
         list.classList.remove('show-list');
     }
 });
+
+
+
+
+
+let firstLiv = document.querySelector('.first-liv')
+let secondLiv = document.querySelector('.second-liv')
+let thirdLiv = document.querySelector('.third-liv')
+let fourLiv = document.querySelector('.four-liv')
+let fiveLiv = document.querySelector('.fifth-liv')
+
+// Создаем анимацию левитации с помощью setInterval
+setInterval(function () {
+    // Изменяем позицию предметов случайным образом
+    firstLiv.style.marginTop = getRandomPosition() + 'px';
+
+   /*  secondLiv.style.marginTop = getRandomPosition() + 'px'
+    secondLiv.style.marginRight = getRandomPosition() + 'px'
+    */ thirdLiv.style.marginTop = getRandomPosition() + 'px'
+    thirdLiv.style.marginRight = getRandomPosition() + 'px'
+   /*  fourLiv.style.marginLeft = getRandomPosition() + 'px'
+    fourLiv.style.marginTop = getRandomPosition() + 'px'
+    fiveLiv.style.marginRight = getRandomPosition() + 'px'
+    fiveLiv.style.marginTop = getRandomPosition() + 'px'
+ */
+}, 1000);
+
+setInterval(function () {
+    // Изменяем позицию предметов случайным образом
+  
+    secondLiv.style.marginTop = getRandomPosition2() + 'px'
+    secondLiv.style.marginRight = getRandomPosition2() + 'px'
+   
+    fourLiv.style.marginLeft = getRandomPosition2() + 'px'
+    fourLiv.style.marginTop = getRandomPosition2() + 'px'
+    fiveLiv.style.marginRight = getRandomPosition2() + 'px'
+    fiveLiv.style.marginTop = getRandomPosition2() + 'px'
+
+},800);// Изменяйте интервал, чтобы регулировать скорость левитации
+
+// Функция для получения случайной позиции в пределах контейнера
+function getRandomPosition2() {
+    return Math.floor(Math.random() * 100); // Измените значение, чтобы ограничить область перемещения
+}
+
+
 
