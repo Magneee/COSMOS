@@ -15,7 +15,6 @@ main {
 
 section {
     width: 100%;
-    height: 1080px;
     transition: opacity 1s ease-in-out;
     /* Начальное состояние - скрытые */
 
@@ -26,7 +25,9 @@ section {
 }
 
 
-
+.kosm_korables_11 #second_korabl_full_cosm {
+    height: 1080px;
+}
 
 .main_section_korabl_1 p{
     box-sizing:content-box;
@@ -944,7 +945,12 @@ section {
 }
 
 .kosm_korables_10 #second_korabl_full_cosm {
-    cursor: auto;
+    cursor: pointer;
+    height: 1080px;
+}
+
+.bg-flight-one {
+    height: 1080px;
 }
 
 
@@ -1220,10 +1226,12 @@ section {
 }
 
 .image-astronaut {
+    position: absolute;
+    bottom: 429px;
     height: 450px;
     z-index: 1;
     width: 450px;
-    padding-bottom: 429px;
+    
 }
 
 .image-line {
@@ -1426,7 +1434,6 @@ section {
 
 
 @media screen and (max-width: 1335px) {
-
     .list__menu {
         max-width: 658px;
         width: 100%;
@@ -1473,9 +1480,12 @@ section {
     .image-line {
         display: none;
     }
+
 }
 
+
 @media screen and (max-width: 1035px) {
+    
     .image-astronaut {
         max-width: 450px;
         width: 100%;
@@ -1489,7 +1499,7 @@ section {
     .astronaut__desc {
         font-size: 40px;
     }
-
+    
 }
 
 
@@ -1789,6 +1799,7 @@ section {
     content: url('../img/1957.svg');
     max-width: 1100px;
     width: 100%;
+    height: 320px;
     top: 51%;
     left: 27%;
     z-index: 0;
@@ -1953,7 +1964,7 @@ section {
 .block_boycanour-circle {
     top: 53px;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     display: flex;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -2053,7 +2064,7 @@ section {
 
 .boycanour-title {
     position: absolute;
-    right: 61px;
+    right: 20%;
     z-index: 2;
     bottom: 244px;
     color: #FFFFFF;
@@ -2220,6 +2231,7 @@ section {
     position: absolute;
     bottom: 620px;
     text-align: center;
+    top: 2%;
     padding-left: 25%;
     transform: translateX(100%);
     opacity: 0;
@@ -2333,7 +2345,6 @@ section {
     }
 
     .image-wrapper {
-        padding: 20px;
         box-sizing: border-box;
     }
 }
@@ -3057,8 +3068,9 @@ section {
 
 }
 
+
+
 .bask-btn {
-    position: absolute;
     bottom: 10%;
     cursor: pointer;
     z-index: 9999;
@@ -3208,16 +3220,451 @@ section {
     text-align: center;
 }
 
-.for_mail{
-    text-decoration: none;
-    color: #FFFFFF;
+
+@media (max-width: 1360px) {
+    .scientists_block {
+        height: 100%;
+    }
 }
 
-.for_mail:hover{
-    color: #7ED1FB;
-
+@media (max-width: 1480px) {
+    .flighti__title {
+        width: 60%;
+        left: 0;
+    }
+    .image-flight_ellipse {
+        max-width: 1920px;
+    width: 100%;
+    }
+    .flighti__desc {
+        left: 93px;
+    }
+    .main_section_korabl {
+    }
+    .flighti-image-2 {
+        left: 5%;
+        max-width: 1005px;
+    width: 100%;
+    }
 }
 
-#for_disable{
-    cursor: default  !important;
+
+
+@media (max-width: 1300px) {
+    .image-vostok {
+        max-width: 965px;
+        width: 100%;
+    }
+    .right_img_korabl_images_content_vostok {
+        height: auto;
+    }
+    .left_navigation_korabl {
+        padding-right: 0;
+    }
+    .right_img_korabl_vostok_content_1_3 {
+        padding: 20px;
+    }
+    .head_for_korabl {
+        font-size: 35px;
+    }
+    .nav_korabl {
+        padding-left: 50px;
+    }
+    .right_img_korabl_for_text_buran {
+        max-width: 965px;
+        width: 100%;
+    }
+    .right_img_korabl_for_text_buran {
+        max-width: 564px;
+        width: 100%;
+    }
+    .right_img_korabl_for_text_buran {
+        height: auto;
+    }
+    .main_for_buran {
+        width: 100%;
+    }
+    .images_for_korabl_vostok {
+        width: 570px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img_korabl_vostok {
+        max-width: 1159px;
+        width: 100%;
+    }
+    .nav_korabl {
+        padding-right: 20px;
+    }
+    .img_korabl_vostok {
+        max-width: 1159px;
+        width: 100%;
+    }
+    .img_korabl {
+        max-width: 1159px;
+        width: 100%;
+    }
+     .section_korabl_world {
+        display: none;
+    }
+    .line_comsos {
+        margin-top: 50px;
+    }
+    .img_korabl_1 {
+        max-width: 1159px;
+        width: 100%;
+    }
+    .right_img_korabl_for_text {
+        height: auto;
+        width: 600px;
+    }
+    .right_img_korabl_1 {
+        height: 979px;
+    }
+    .for_padding_korabl {
+        font-size: 25px;
+    }
+    .for_images_srection_korables_10 {
+        max-width: 1159px;
+        width: 100%;
+
+    }
+    .kosm_korables_10 #second_korabl_full_cosm {
+        height: auto;
+    }
+    .main_section_korabl {
+        flex-direction: column;
+    }
+
+    .for_images_srection_korables_10 {
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .for_images_srection_korables_10_content_1 {
+        max-width: 808px;
+        width: 100%;
+    }
+    .for_images_srection_korables_10_content_2 {
+        max-width: 1111px;
+        width: 100%;
+    }
+    .for_images_srection_korables_10_content_3 {
+        max-width: 1110px;
+        width: 100%;
+    }
+    .third__box {
+        max-width: 1253px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    .third__link-6 {
+        bottom: 32%;
+        left: 0;
+    }
+    .third__link {
+        top: 38%;
+        left: 25%;
+    }
+    .third__link-2 {
+        top: 28%;
+        left: 60%;
+    }
+    .third__link-4 {
+        bottom: 20%;
+        left: 42%;
+    }
+    .third__link-1 {
+        bottom: 31%;
+        left: 25%;
+    }
+    .third__link-5 {
+        bottom: 33%;
+        left: 63%;
+    }
+    .third__link-3 {
+        top: 38%;
+        left: 90%;
+    }
+    .third__link-5 {
+        bottom: 31%;
+    left: 63%;
+    }
+    .kosm_korables_10 #second_korabl_full_cosm {
+        height: auto;
+    }
+   
+    .flex-sw-box {
+        max-width: 1257px;
+        width: 100%;
+        padding-left: 170px;
+    }
+    .top-position-line {
+        display: none;
+    }
+    .bottom-position-line {
+        display: none;
+    }
+    .bask-btn {
+        position: absolute;
+        top: 0;
+    }
+    .swiper {
+        overflow: visible !important;
+    }
+    .left-sw-title {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .flex-sw-box {
+        overflow: hidden;
+        height: 1000px;
+    }
+    .flighti__title {
+        font-size: 25px;
+
+    }
+    .bagroung-color {
+        max-width: 852px;
+        width: 100%;
+    }
+    .img-flex-block img {
+        width: 50%;
+    }
+    .boycanour {
+        height: 1080px;
+    }
+    .img-fiveth-flex-block {
+        width: 50%;
+    }
+    .main__third  {
+    }
+    .third-1__content,
+    .third-1__content-1,
+    .third-1__content-2,
+    .third-1__content-3,
+    .third-1__content-4,
+    .third-1__content-5,
+    .third-1__content-6 {
+        max-width: 592px;
+
+        width: 100%;
+        padding: 20px;
+        margin-left: 10px;
+        left: 0%;
+        right: 0%;
+        height: auto;
+    }
+    .third-1__svg,
+    .third-1__svg-2,
+    .third-1__svg-3,
+    .third-1__svg-4,
+    .third-1__svg-5,
+    .third-1__svg-6,
+    .third-1__svg-7 {
+        max-width: 500px;
+        top: 24%;
+        width: 100%;
+        height: auto;
+        margin-left: 10px;
+        left: 0%;
+    }
+    .third-1__text-1, 
+    .third-1__text-1, 
+    .third-1__text-1, 
+    .third-1__text-2, 
+    .third-1__text-2, 
+    .third-1__text-3,
+    .third-1__text-4, 
+    .third-1__text-5,
+    .third-1__text-6 {
+        font-size: 15px;
+        line-height: 20px;
+        max-width: 928px;
+        width: 100%;
+    }
+    .images-astronaut {
+        max-width: 478px;
+        width: 100%;
+    }
+    .gagarin-descr_slide {
+        max-width: 626px;
+        width: 100%;
+    }
+    .image-flight_ellipse {
+        max-width: 1920px;
+    width: 100%;
+    }
+    .flighti__desc {
+        left: 804px;
+    }
+    .main_section_korabl {
+    }
+    .flighti-image-2 {
+        max-width: 1005px;
+    width: 100%;
+    }
 }
+
+
+@media (max-width: 1260px) {
+    
+    .third__box {
+        max-width: 1253px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    .boycanour-title {
+        font-size: 35px;
+    }
+    .line_comsos_block {
+        width: 100%;
+    }
+    .section_korabl_world {
+        display: none;
+    }
+    .line_comsos_block {
+        margin-left: 87px;
+    }
+   
+    .lists {
+        margin-left: 0;
+    }
+    .third__title {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    .third__link-6 {
+        bottom: 33%;
+        left: 0;
+    }
+    .third__link {
+        top: 40%;
+        left: 25%;
+    }
+    .third__link-2 {
+        top: 33%;
+        left: 60%;
+    }
+    .third__link-4 {
+        bottom: 24%;
+        left: 42%;
+    }
+    .third__link-1 {
+        bottom: 33%;
+        left: 25%;
+    }
+    .third__link-5 {
+        bottom: 33%;
+        left: 61%;
+    }
+    .third__link-3 {
+        top: 40%;
+        left: 90%;
+    }
+    .text_for_world_cosmo {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+    
+    .left-scientist-box {
+        font-size: 35px;
+    }
+    .right-scientist-box {
+        font-size: 30px;
+    }
+    .text__ {
+        font-size: 35px;
+    }
+    .flighti__desc {
+        font-size: 40px;
+    }
+    .boycanour-title {
+        padding-top: 100px;
+    }
+    .image-bg-slide {
+        position: relative;
+        margin-top: 200px;
+    }
+    
+    .boycanour-list {
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+    .boycanour-desc  {
+        padding-bottom: 40px;
+        padding-right: 30px;
+    }
+    .image-bg-slide {
+        height: auto;
+    }
+    .boycanour-title {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 20%;
+    }
+    .flighti__title {
+        width: 60%;
+        left: 0;
+    }
+    .bg-flight-one {
+        min-width: 100%;
+    }
+    .flight2 {
+        min-width: 100%;
+    }
+    .left_navigation_korabl {
+        max-width: 1165px;
+        width: 100%;
+    }
+    .right_img_korabl_vostok_content_1_2 {
+        max-width: 965px;
+        width: 100%;
+    }
+    
+    .head_for_korabl {
+        font-size: 35px;
+    }
+    
+    .line_comsos_block {
+        max-width: 705px;
+        padding-right: 50px;
+        width: 100%;
+    }
+    
+   
+    
+  }
+
+  @media (max-width: 1160px) {
+    .souz_img {
+        top: 379px;
+        left: 306px;
+    }
+    .souz_img {
+        top: 379px;
+        left: 311px;
+    }
+
+    .buran_img {
+        top: 375px;
+        left: 607px;
+    }
+    .line_comsos_block {
+        margin-left: 87px;
+    }
+  }
+
+  @media (max-width: 860px) {
+    .third__link-3 {
+        top: 40%;
+        left: 85%;
+    }
+  }
+
+  
+
